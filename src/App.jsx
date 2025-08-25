@@ -236,13 +236,13 @@ export default function App() {
                 onChange={(e) => setQ(e.target.value)}
                 className="px-3 text-white py-2 rounded-lg border border-slate-200 dark:border-slate-700 bg-transparent"
               />
-              <select value={filter} onChange={(e) => setFilter(e.target.value)} className="px-3 py-2 rounded-lg border text-white">
+              <select value={filter} onChange={(e) => setFilter(e.target.value)} className="px-3 py-2 rounded-lg border text-white bg-transparent">
                 <option value="all">All</option>
                 <option value="today">Today</option>
                 <option value="overdue">Overdue</option>
                 <option value="completed">Completed</option>
               </select>
-              <select value={sort} onChange={(e) => setSort(e.target.value)} className="px-3 py-2 rounded-lg border text-white">
+              <select value={sort} onChange={(e) => setSort(e.target.value)} className="px-3 py-2 rounded-lg border text-white bg-transparent">
                 <option value="manual">Manual</option>
                 <option value="date">By Date</option>
                 <option value="priority">By Priority</option>
